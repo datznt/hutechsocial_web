@@ -1,0 +1,20 @@
+//== Typography
+//## Font, line-height, and color for body text, headings, and more.
+// @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap");
+
+// $font-family-sans-serif: "Roboto Mono", monospace, "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+// $font-family-serif: Georgia, "Times New Roman", Times, serif !default;
+// //** Default monospace fonts for `<code>`, `<kbd>`, and `<pre>`.
+// $font-family-monospace: Menlo, Monaco, Consolas, "Courier New", monospace !default;
+// $font-family-base: $font-family-sans-serif !default;
+// colors
+$blue:    #4550E6 !default;
+$body-bg: #eff0f9;
+$body-color:#1d1d1d;
+
+$font-size-base: 0.875rem;
+$font-size-large: ceil(($font-size-base * 1.05)) !default; // ~18px
+$font-size-small: ceil(($font-size-base * 0.65)) !default; // ~12px
+
+@import "bootstrap/scss/bootstrap.scss";
+@import "bootstrap-vue/src/index.scss";
